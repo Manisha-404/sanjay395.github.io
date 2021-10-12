@@ -305,7 +305,7 @@ img.six:hover{
 
  @media only screen and (max-width: 600px) {
   i{
-    padding: 8%;
+    padding: 12%;
   }
   #edu ul{
     list-style-type: none;
