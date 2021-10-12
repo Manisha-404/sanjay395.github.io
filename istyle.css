@@ -327,6 +327,7 @@ img.six:hover{
   #edu ul{
     list-style-type: none;
     margin: 0;
+    margin-right:5%;
     font-size: 80%;
     text-align:center;
   }
