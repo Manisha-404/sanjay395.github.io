@@ -317,12 +317,16 @@ img.six:hover{
   }
   #edu ul{
     list-style-type: none;
-    margin: 2%;
-    font-size: 119%;
+    margin: 0%;
+    font-size: 100%;
   }
   #gal{
     display: grid;
     grid-template-columns: 1fr;
+   }
+   @keyframes move {
+    from {right: 0px;}
+    to {right: 15%;}
    }
    #project{
     margin-top: 4%;
@@ -330,6 +334,7 @@ img.six:hover{
     background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
     border-radius: 2em;
     padding: 5%;
+    animation: move 6s infinite;
   }
   footer{
     padding-top:2% ;
