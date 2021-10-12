@@ -47,7 +47,10 @@ body{
  #about h1{
    font-size: 300%;
  }
- 
+  #about p{
+   font-size: 170%;
+ }
+
 .flow{
   padding-top: 4%;
 }
@@ -64,9 +67,7 @@ body{
   overflow: auto;
 }
 
- #about p{
-   font-size: 170%;
- }
+
 
 img.about{
   padding-right: 10%;
@@ -304,6 +305,12 @@ img.six:hover{
 }
 
  @media only screen and (max-width: 600px) {
+    #about h1{
+   font-size: 250%;
+ }
+  #about p{
+   font-size: 150%;
+ }
   i{
     padding: 12%;
     margin-right:5%;
