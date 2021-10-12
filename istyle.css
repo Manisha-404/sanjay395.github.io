@@ -306,6 +306,8 @@ img.six:hover{
  @media only screen and (max-width: 600px) {
   i{
     padding: 12%;
+    margin-right:5%;
+    margin-left:2%;
   }
   .navbar a {
     float: left;
