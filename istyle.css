@@ -313,9 +313,11 @@ img.six:hover{
   margin-right: 10%;
   margin-top: 1%;
   padding: 1%;
+  padding-left:0;
   border-radius: 2em;
   color: white;
  }
+  
    #edu h2{
    text-align: center;
    }
@@ -351,9 +353,6 @@ img.six:hover{
     grid-template-columns: 1fr;
    }
    @keyframes move {
-     a.edu{
-       padding:5%
-     }
     from {right: 0px;}
     to {right: 15%;}
    }
