@@ -305,6 +305,10 @@ img.six:hover{
 }
 
  @media only screen and (max-width: 600px) {
+   a.edu{
+   padding-left:5%;
+   padding-right:5%;
+   }
     #edu{
   background-image: linear-gradient(to right,#000428 , #004e92);
   text-align: left;
@@ -379,4 +383,27 @@ img.six:hover{
     padding-right: 4%;
      display: inline-block;
    }
+   #me h2{
+  text-align: center;
+  font-size: 250%;
+  border-bottom: black solid;
+}
+ 
+#me p{
+  text-align: center;
+  font-size: 100%;
+}
+
+#me h3{
+  font-size: 150%;
+  text-align: center;
+}
+
+#me li{
+  list-style-type:circle;
+  display: inline-block;
+  font-size: 100%;
+  padding-right: 7%;
+  padding-bottom: 2%;
+}
 }
