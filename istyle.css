@@ -11,7 +11,6 @@ body{
 }
  
  .navbar a {
-
    float: left;
    color:white;
    text-decoration: none;
@@ -405,6 +404,5 @@ img.six:hover{
     a.edu{
    padding-left:1%;
    padding-right:5%;
-   font-size: 70%;
    }
 }
