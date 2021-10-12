@@ -326,9 +326,11 @@ img.six:hover{
   }
   #edu ul{
     list-style-type: none;
-    margin: 0%;
-    font-size: 100%;
+    margin: 0;
+    font-size: 80%;
+    text-align:center;
   }
+ 
   #gal{
     display: grid;
     grid-template-columns: 1fr;
