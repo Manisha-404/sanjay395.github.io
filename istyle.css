@@ -305,7 +305,7 @@ img.six:hover{
 
  @media only screen and (max-width: 600px) {
   i{
-    padding: 8%;
+    padding: 10%;
   }
   .navbar a {
     float: left;
@@ -317,7 +317,7 @@ img.six:hover{
   }
   #edu ul{
     list-style-type: none;
-    margin: 5%;
+    margin: 2%;
     font-size: 119%;
   }
   #gal{
@@ -342,8 +342,8 @@ img.six:hover{
     display: inline;
   }
   footer li{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
      display: inline-block;
    }
 }
