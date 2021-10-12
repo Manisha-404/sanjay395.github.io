@@ -325,6 +325,9 @@ img.six:hover{
     grid-template-columns: 1fr;
    }
    @keyframes move {
+     a.edu{
+       padding:5%
+     }
     from {right: 0px;}
     to {right: 15%;}
    }
