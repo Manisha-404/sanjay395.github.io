@@ -1,0 +1,338 @@
+body{
+  margin: 0;
+  background-image:linear-gradient(to right, #240a79,#2ed4da) ;
+}
+
+.navbar {
+   width: 100%;
+   background-color:black;
+   overflow: auto;
+   position: sticky;
+}
+ 
+ .navbar a {
+
+   float: left;
+   color:white;
+   text-decoration: none;
+   font-size: 120%;
+   width: 15%; /* Four links of equal widths */
+   text-align: center;
+ }
+ 
+ .navbar a:hover {
+   background-color:#2ed4da;
+   color: black;
+ }
+ 
+ .navbar a.active {
+   background-color:  #2975b8;
+   color: white;
+ }
+
+ i{
+   padding: 12%;
+ }
+
+ #about{
+   border-radius:2em ;
+   color: white;
+   background-image: linear-gradient(to right,#000428 , #004e92);
+  padding-left: 10%;
+  padding-right:10% ;
+   margin: 2%;
+   margin-bottom: 0;
+   overflow:auto;
+ }
+ #about h1{
+   font-size: 300%;
+ }
+ 
+.flow{
+  padding-top: 4%;
+}
+
+#mid{
+  border-radius: 2em;
+  background-image: linear-gradient(to right,#000428 , #004e92);
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  overflow: auto;
+}
+
+ #about p{
+   font-size: 170%;
+ }
+
+img.about{
+  padding-right: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+  height: 25%;
+  width: 30%;
+}
+img.about:hover{
+  cursor: pointer;
+  transform:scale(1.25,1.25);
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 15%;}
+}
+
+#me{
+  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
+  padding: 2%;
+  margin-right: 10%;
+  float: left;
+  margin-bottom: 0;
+  border-radius: 2em;
+  position: relative;
+  animation: mymove 6s infinite;
+}
+
+#me h2{
+  text-align: center;
+  font-size: 250%;
+  border-bottom: black solid;
+}
+ 
+#me p{
+  text-align: center;
+  font-size: 150%;
+}
+
+#me h3{
+  font-size: 200%;
+  text-align: center;
+}
+
+#me li{
+  list-style-type:circle;
+  display: inline-block;
+  font-size: 150%;
+  padding-right: 7%;
+  padding-bottom: 2%;
+}
+@keyframes move {
+  from {right: 0px;}
+  to {right: 20%;}
+}
+#project{
+  float: right;
+  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
+  border-radius: 2em;
+  padding: 5%;
+  position: relative;
+  animation: move 6s infinite;
+}
+ #project h2{
+  border-bottom: black solid;
+  text-align: center;
+  font-size: 250%;
+}
+
+ #project p{
+  text-align: center;
+  font-size: 150%;
+ }
+
+ button{
+   font-size: 90%;
+   margin-top: 4%;
+   padding: 5%;
+   background-color: black;
+   border-color: black;
+   color: white;
+ }
+ button:hover{
+  cursor: pointer;
+  font-size: 100%;
+  margin-top: 4%;
+  padding: 6%;
+  background-color: #272869;
+  color: white;
+}
+
+ #edu{
+  background-image: linear-gradient(to right,#000428 , #004e92);
+  text-align: center;
+  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  padding: 1%;
+  border-radius: 2em;
+  color: white;
+ }
+
+ #edu ul{
+   list-style-type: none;
+   margin: 5%;
+   font-size: 150%;
+ }
+
+.school:hover{
+  border-radius: 1em;
+  padding: 2%;
+  cursor: pointer;
+  color: black;
+  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
+}
+.clg:hover{
+  border-radius: 1em;
+  padding: 2%;
+  cursor: pointer;
+  color: black;
+  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
+}
+.iiit:hover{
+  border-radius: 1em;
+  padding: 2%;
+  cursor: pointer;
+  color:black;
+  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
+}
+
+#edu h2{
+  border-bottom: white solid;
+  border-width: 2px;
+  font-size: 250%;
+}
+ #gal{
+  display: grid;
+  grid-template-columns: auto auto auto;
+ }
+
+ #gall h2{
+  font-size: 250%;
+  color: white;
+   text-align: center;
+ }
+ #gal img{
+   border-radius: 1em;
+   margin-left: 10%;
+   width: 80%;
+   height: 80%;
+ }
+
+ img.one:hover{
+  cursor: pointer;
+  transform:scale(1.1,1.1);
+  border: #020a11 solid 5px;
+}
+
+img.two:hover{
+  cursor: pointer;
+  transform:scale(1.1,1.1);
+  border: #020a11 solid 5px;
+}
+img.three:hover{
+  cursor: pointer;
+  transform:scale(1.1,1.1);
+  border: #020a11 solid 5px;
+}
+img.four:hover{
+  cursor: pointer;
+  transform:scale(1.1,1.1);
+  border: #020a11 solid 5px;
+}
+img.five:hover{
+  cursor: pointer;
+  transform:scale(1.1,1.1);
+  border: #020a11 solid 5px;
+}
+img.six:hover{
+  cursor: pointer;
+  transform:scale(1.1,1.1);
+  border: #020a11 solid 5px;
+}
+
+ footer{
+  padding-top:2% ;
+  padding-bottom:2% ;
+  background-color: black;
+  color: white;
+ }
+ footer ul{
+   margin-left: 10%;
+    display: inline;
+  }
+
+ footer a{
+   display: inline;
+}
+
+ footer li{
+  padding-left: 8%;
+  padding-right: 8%;
+   display: inline-block;
+ }
+
+
+
+ .con{
+   text-align: center;
+   font-weight: bold;
+ }
+
+ /* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #240a79;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+
+ @media only screen and (max-width: 600px) {
+  #edu ul{
+    list-style-type: none;
+    margin: 5%;
+    font-size: 119%;
+  }
+  #gal{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   #project{
+    margin-top: 4%;
+    float: right;
+    background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
+    border-radius: 2em;
+    padding: 5%;
+  }
+  footer{
+    padding-top:2% ;
+    padding-bottom:2% ;
+   background-color: black;
+   color: white;
+  }
+  footer ul{
+    margin: 0;
+    display: inline;
+  }
+  footer li{
+    padding-left: 5%;
+    padding-right: 5%;
+     display: inline-block;
+   }
+}
