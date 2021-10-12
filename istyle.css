@@ -307,7 +307,7 @@ img.six:hover{
  @media only screen and (max-width: 600px) {
    a.edu{
    padding-left:5%;
-   padding-right:7%;
+   padding-right:10%;
    }
     #edu{
   background-image: linear-gradient(to right,#000428 , #004e92);
