@@ -59,20 +59,6 @@ body{
   padding-top: 4%;
 }
 
-#mid{
-  border-radius: 2em;
-  background-image: linear-gradient(to right,#000428 , #004e92);
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  overflow: auto;
-}
-
-
-
 img.about{
   padding-right: 10%;
   display: flex;
@@ -85,26 +71,34 @@ img.about:hover{
   cursor: pointer;
   transform:scale(1.25,1.25);
 }
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 15%;}
+
+#mid{
+  border-radius: 2em;
+  background-image: linear-gradient(to right,#000428 , #004e92);
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  overflow: auto;
 }
 
 #me{
-  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
-  padding: 2%;
-  margin-right: 10%;
-  float: left;
+  border-radius:2em ;
+  color: white;
+  background-image: linear-gradient(to right,#000428 , #004e92);
+  padding-left: 10%;
+  padding-right:10% ;
+  margin: 2%;
   margin-bottom: 0;
-  border-radius: 2em;
-  position: relative;
-  animation: mymove 6s infinite;
+  overflow:auto;
 }
 
 #me h2{
   text-align: center;
   font-size: 250%;
-  border-bottom: black solid;
+  border-bottom: white solid;
 }
  
 #me p{
@@ -118,48 +112,73 @@ img.about:hover{
 }
 
 #me li{
+  padding-left: 4%;
+  padding-right: 4%;
   list-style-type:circle;
   display: inline-block;
   font-size: 150%;
-  padding-right: 7%;
   padding-bottom: 2%;
 }
-@keyframes move {
-  from {right: 0px;}
-  to {right: 20%;}
-}
+
 #project{
-  float: right;
-  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
-  border-radius: 2em;
-  padding: 5%;
-  position: relative;
-  animation: move 6s infinite;
+  border-radius:2em ;
+  color: white;
+  background-image: linear-gradient(to right,#000428 , #004e92);
+  margin: 2%;
+  padding: 2%;
+  padding-bottom: 5%;
+  overflow: auto;
 }
  #project h2{
-  border-bottom: black solid;
+  border-bottom: white solid;
   text-align: center;
   font-size: 250%;
 }
+.project{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+div.galleryy {
+  margin: 10%;
+  border-radius: 1em;
+  background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
+  padding:0;
+  padding-bottom: 10%;
+}
 
- #project p{
+div.galleryy:hover {
+  transform:scale(1.1,1.1);
+  border: #020a11 solid 5px;
+}
+
+div.galleryy img {
+  padding-left: 15%;
+  margin-top: 4%;
+  width: 70%;
+  height: 70%;
+}
+
+div.desc {
   text-align: center;
-  font-size: 150%;
- }
+  font-size: 120%;
+  color: black;
+  font-weight: bold;
+}
 
- button{
-   font-size: 90%;
-   margin-top: 4%;
-   padding: 5%;
+button.desc{
+  font-size: 90%;
+   padding: 2%;
    background-color: black;
    border-color: black;
    color: white;
- }
- button:hover{
+   margin-bottom: 25%;
+}
+
+button.desc:hover{
   cursor: pointer;
   font-size: 100%;
   margin-top: 4%;
-  padding: 6%;
+  padding: 2%;
   background-color: #272869;
   color: white;
 }
@@ -252,6 +271,7 @@ img.five:hover{
   transform:scale(1.1,1.1);
   border: #020a11 solid 5px;
 }
+
 img.six:hover{
   cursor: pointer;
   transform:scale(1.1,1.1);
@@ -278,8 +298,6 @@ img.six:hover{
   padding-right: 8%;
    display: inline-block;
  }
-
-
 
  .con{
    text-align: center;
@@ -308,7 +326,7 @@ img.six:hover{
   background: black; 
 }
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 900px) {
    .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -357,11 +375,7 @@ img.six:hover{
   #about p{
    font-size: 150%;
  }
-/*   i{
-    padding: 12%;
-    margin-right:5%;
-    margin-left:2%;
-  } */
+
   #edu ul{
     list-style-type: none;
     margin: 0;
@@ -373,18 +387,18 @@ img.six:hover{
     display: grid;
     grid-template-columns: 1fr;
    }
-   @keyframes move {
-    from {right: 0px;}
-    to {right: 15%;}
+
+  .project{
+    display: grid;
+    grid-template-columns: 1fr;
+    
    }
-   #project{
-    margin-top: 4%;
-    float: right;
+  
+   div.galleryy {
+    border-radius: 1em;
     background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
-    border-radius: 2em;
-    padding: 5%;
-    animation: move 6s infinite;
   }
+
   footer{
     padding-top:2% ;
     padding-bottom:2% ;
@@ -403,24 +417,24 @@ img.six:hover{
    #me h2{
   text-align: center;
   font-size: 250%;
-  border-bottom: black solid;
-}
+  border-bottom: white solid;
+  }
  
-#me p{
-  text-align: center;
-  font-size: 100%;
-}
+  #me p{
+    text-align: center;
+    font-size: 110%;
+  }
 
-#me h3{
-  font-size: 150%;
-  text-align: center;
-}
+  #me h3{
+    font-size: 150%;
+    text-align: center;
+  }
 
-#me li{
-  list-style-type:circle;
-  display: inline-block;
-  font-size: 100%;
-  padding-right: 7%;
-  padding-bottom: 2%;
-}
+  #me li{
+    list-style-type:circle;
+    display: inline-block;
+    font-size: 100%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+  }
 }
