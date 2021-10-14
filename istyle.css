@@ -398,7 +398,23 @@ img.six:hover{
     border-radius: 1em;
     background-image: linear-gradient(to right,#31c5ec ,#72e9dc);
   }
-
+  button.desc{
+    font-size: 90%;
+     padding: 2%;
+     background-color: black;
+     border-color: black;
+     color: white;
+     margin-bottom: 1%;
+  }
+  
+  button.desc:hover{
+    cursor: pointer;
+    font-size: 100%;
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #272869;
+    color: white;
+  }
   footer{
     padding-top:2% ;
     padding-bottom:2% ;
